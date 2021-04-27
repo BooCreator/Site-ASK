@@ -1,0 +1,39 @@
+Для встраивание на страницу используйте код
+
+<input class="filter_button" type="button" onclick="hide(this,'hidden','фильтр')" value="Показать фильтр">
+<div class="hidden" style="display: none;">
+<div class="filter">
+  <div class="group">
+    <p>Программы для обработки изображений</p>
+    <div>
+      <input class="filter_button" type="button" onclick="addFilter(this, 'filter','photoshop')" value="Adobe Photoshop">
+      ...
+    </div>
+  </div>
+  ...
+  <div class="group">
+  <p>Тип фильтра</p>
+  <p>При <b><i>Включающем фильтре</i></b> на панели ниже останутся только те выпускники, которые знакомы хотя бы с одной из выбранных программ.</p>
+  <p>При <b><i>Исключающем фильтре</i></b> на панели ниже останутся только те выпускники, которые владеют всеми выбранными программами.</p>
+    <div>
+      <div>
+        <input id="filter_arch_1" type="radio" name="filter_type" value="0" checked>
+        <label class="filter_button" for="filter_arch_1" >Включающий</label>
+      </div>
+      <div>
+        <input id="filter_arch_2" type="radio" name="filter_type" value="1">
+        <label class="filter_button" for="filter_arch_2" >Исключающий</label>
+      </div>
+    </div>
+  </div>
+  ...
+  <input type="text" value="" placeholder="Поле для фильтров..." >
+  <br>
+  <input class="filter_button" type="button" onclick="applyFilter('filter', 'image-list');" value="Применить">
+</div>
+</div>
+<p> </p>
+<div class="image-list">
+  <a class="image-list_a" href="http://ask-bru.by/dl/images/for_work/arch/arch (1).jpg" href="#" title="Белоусова Дарья Олеговна" tags="photoshop,autocad,coreldraw,sketchup"><img src="http://ask-bru.by/dl/images/for_work/arch/minis/belousova1.jpg"></a>
+  ...
+</div>

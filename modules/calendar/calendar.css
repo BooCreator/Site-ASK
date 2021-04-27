@@ -1,0 +1,67 @@
+.calendar {
+  width: 100%;
+  border-style: solid;
+  border-color: #bbb;
+  border-width: 0px 1px 1px;
+}
+
+.calendar div {
+  text-align: center;
+  overflow: hidden;
+  cursor: default;
+  min-width: 20px !important;
+}
+
+.calendar .field {
+  padding: 6px 4% 6px 4%;
+}
+
+.calendar .header {
+  padding: 4px 0 4px;
+  background-color: #365aaf;
+  color: #fff;
+}
+
+.calendar .weeks {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-color: #bbb;
+  border-width: 0 0 1px;
+  margin-bottom: 4px;
+  margin-top: 0 !important;
+}
+
+.calendar .weeks div {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.calendar .week div {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.calendar .weeks div,
+.calendar .week div {
+  float: left;
+  width: 14.28%;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px 0 3px;
+}
+
+.calendar .week .now {
+  border-width: 3px 0 3px;
+  background-color: #4273e6;
+  border-color: #365aaf transparent #4273e6;
+  color: #fff;
+}
+
+.days .week:nth-child(2n) {
+  background-color: #f4f7fe;
+}
+.days .week:nth-child(2n) div {
+	border-color: #f4f7fe;
+}

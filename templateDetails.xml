@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!DOCTYPE install PUBLIC "-//Joomla! 3.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+  <extension version="3.5" type="template" client="site">
+    <name>ASK_Mogilev 3.0</name>
+    <creationDate>2020-04-06</creationDate>
+    <author>Кузнецов Михаил Владимирович</author>
+    <authorEmail>diedji@mail.ru</authorEmail>
+    <authorUrl></authorUrl>
+    <copyright>© 2020 Архитектурно-строительный колледж в составе МОУВО "Белорусско-Росийский университет</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>3.0.0</version>
+    <description>Шаблон для сайта архитектурно-строительного колледжа</description>
+
+    <files>
+      <folder>css</folder>
+	  <folder>html</folder>
+	  <folder>images</folder>
+	  <folder>include</folder>
+	  <folder>js</folder>
+	  <folder>modules</folder>
+      <filename>component.php</filename>
+      <filename>error.php</filename>
+      <filename>favicon.ico</filename>
+      <filename>index.php</filename>
+      <filename>template_preview.png</filename>
+      <filename>template_thumbnail.png</filename>
+      <filename>templateDetails.xml</filename>
+    </files>
+
+    <positions>
+      <position>social</position>
+      <position>header.top</position>
+      <position>logo.title</position>
+      <position>logo.menu</position>
+      <position>logo.photo</position>
+      <position>right.top</position>
+      <position>right.mid</position>
+      <position>right.bot</position>
+      <position>content.top</position>
+      <position>content.mid</position>
+      <position>content.bot</position>
+      <position>warning</position>
+      <position>footer</position>
+    </positions>
+  </extension>

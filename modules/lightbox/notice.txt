@@ -1,0 +1,18 @@
+Создаём на сайте один лайтбокс с примера, или подключаем файл lightbox.php,
+затем создаём кнопочки, либо вешаем на onclick функцию lightbox.
+
+<button type="button" class="btn btn-light" onclick="lightbox('Текст', 'img/img (1).jpg')">Показать</button>
+
+<!-- лайтбокс -->
+  <div id="lightbox" onclick="Hide($(this))">
+    <div class="lightbox_body">
+      <div class="lightbox_title">
+        <div>
+          <p class="m-0">Текст</p>
+        </div>
+      </div>
+      <div class="lightbox_content">			
+      </div>
+    </div>
+  </div>
+<!-- конец лайтбокса -->

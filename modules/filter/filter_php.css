@@ -1,0 +1,23 @@
+.filter .filter_on {
+  color: white;
+}
+
+.filter .filter_on {
+  background-color: #365aaf;
+}
+
+.filter_button:hover {
+  color: white;
+}
+
+.filter_button:hover,
+.filter_button:active,
+.filter_button:focus {
+  background-color: #4273e6;
+  color: #fff;
+}
+
+input[type="radio"]:checked ~label {
+	background-color: #365aaf;
+	color: #fff;
+}

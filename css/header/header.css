@@ -1,0 +1,133 @@
+header .block-social {
+  height: 37px;
+  background-color: lightgray;
+}
+
+header .block-top {
+  min-height: 40px;
+  background-color: #365aaf;
+}
+
+header .block-top .navbar {
+  padding: 2px 1rem;
+}
+
+header .block-logo {
+  /*height: 360px;*/
+  position: relative;
+}
+
+header .logo-title {
+  height: 80px;
+  background-color: #4273e6;
+  border-radius: 0 0 0 14px;
+  z-index: 9999;
+  box-shadow: 0px 17px 20px -15px #555555;
+}
+
+header .logo-bottom {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  height: 314px;
+}
+
+@media screen and (max-width: 991px) {
+  
+  header .logo-bottom {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  
+  header .logo-title {
+    border-radius: 0;
+  }
+  
+  header .logo-menu {
+    min-width: 240px;
+    max-width: 100% !important;
+    width: 100%;
+  }
+  
+  header .logo-menu .navbar {
+    padding: 2px 1rem;
+  }
+  
+}
+
+header .logo-menu {
+  min-width: 240px;
+  max-width: 240px;
+}
+
+header .logo-photo {
+  width: 100%;
+  height: 100%;
+  background-color: #4273e6;
+  border-radius: 0 0 14px 14px;
+  box-shadow: 0px 17px 20px -15px #555555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px 24px 24px;
+  position: relative;
+}
+
+header .logo-photo .custom {
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  box-shadow: 0px 10px 10px #282828;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+header .logo-photo .custom img {
+  min-height: 100%;
+  max-width: 100%;
+}
+
+header .logo-title .custom {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 8px 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .logo-title .custom img {
+  height: 100%;
+  padding-right: 14px;
+}
+
+header .block-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .block-social div {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header .block-social>div {
+  margin: 0 4px 0 0;
+}
+header .block-social div.search form input {
+  height: 90%;
+  margin: 0;
+  padding: 2px;
+  border-style: none;
+  border-width: 1px;
+  border-color: black;
+  border-radius: .25rem;
+  text-align: center;
+}

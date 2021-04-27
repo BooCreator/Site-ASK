@@ -1,0 +1,5 @@
+Для встраивание на страницу используйте код
+
+<div class="calendar"> </div>
+
+<script>genCalendar();</script>

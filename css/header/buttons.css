@@ -1,0 +1,31 @@
+span {
+	cursor: default !important;
+}
+
+.btn-ask:hover {
+	background-color: #365aaf;
+	color: #ffffff;
+}
+
+.bg-btn-ask a,
+.bg-btn-ask span {
+  color: #444242;
+  display: block;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.bg-btn-ask>a,
+.bg-btn-ask>span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.dropdown-menu {
+  
+}
+
+.dropdown-menu a {
+  white-space: normal;
+}
